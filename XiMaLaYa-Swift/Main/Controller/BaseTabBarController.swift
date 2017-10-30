@@ -27,7 +27,7 @@ class BaseTabBarController: UITabBarController {
         
         let meControllr = MeViewController()
         setupChildController(controller: meControllr, imageName: "tabbar_me_n", selectedImageName: "tabbar_me_h")
-        tabBar.backgroundImage = UIImage.init(named: "tabbar_bg")
+//        tabBar.backgroundImage = UIImage.init(named: "tabbar_bg")
         
     }
 

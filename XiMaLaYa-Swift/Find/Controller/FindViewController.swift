@@ -10,17 +10,19 @@ import UIKit
 
 class FindViewController: UIViewController {
 
+    lazy var subTitleArray:[String] = {
+       return ["推荐","分类","广播","榜单","主播"]
+    }()
+    
+    //头部标题
+    lazy var subTitleView : FindSubTitleView = {
+       let view = FindSubTitleView.init(frame: CGRect.init(x: 0, y: 64, width: ScreenW, height: 40))
+        self.view.addSubview(view)
+        return view
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      
-        
+        subTitleView.titleArray = subTitleArray
     }
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let nextVC = NextViewController()
-        nextVC.hidesBottomBarWhenPushed = true;
-        self.navigationController?.navigationBar.isHidden = true;
-        navigationController?.pushViewController(nextVC, animated: true)
-    }
-
 }
