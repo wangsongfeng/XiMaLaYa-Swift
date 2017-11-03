@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		181069A11FA2C3770057C03B /* NaPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E0BC61FA2416D00F018D2 /* NaPlayView.swift */; };
 		181069A31FA2C56F0057C03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181069A21FA2C56F0057C03B /* Assets.xcassets */; };
+		18522C5B1FAC4EE100C81644 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C5A1FAC4EE100C81644 /* PageViewController.swift */; };
+		18522C5D1FAC58FA00C81644 /* XMSubFindFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C5C1FAC58FA00C81644 /* XMSubFindFactory.swift */; };
+		18522C731FAC5BFC00C81644 /* RecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C721FAC5BFC00C81644 /* RecommendController.swift */; };
+		18522C751FAC5C1100C81644 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C741FAC5C1100C81644 /* CategoryController.swift */; };
+		18522C771FAC5C2200C81644 /* RandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C761FAC5C2200C81644 /* RandController.swift */; };
+		18522C791FAC5C3300C81644 /* RadioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C781FAC5C3300C81644 /* RadioController.swift */; };
+		18522C7B1FAC5C4100C81644 /* AnchorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C7A1FAC5C4100C81644 /* AnchorController.swift */; };
 		186E6C201F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C1F1F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift */; };
 		186E6C2B1F9EE11700ADD065 /* XiMaLaYa_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C2A1F9EE11700ADD065 /* XiMaLaYa_SwiftUITests.swift */; };
 		186E6C4D1F9F01CC00ADD065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C391F9EE26500ADD065 /* AppDelegate.swift */; };
@@ -44,6 +51,13 @@
 
 /* Begin PBXFileReference section */
 		181069A21FA2C56F0057C03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18522C5A1FAC4EE100C81644 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		18522C5C1FAC58FA00C81644 /* XMSubFindFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMSubFindFactory.swift; sourceTree = "<group>"; };
+		18522C721FAC5BFC00C81644 /* RecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendController.swift; sourceTree = "<group>"; };
+		18522C741FAC5C1100C81644 /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		18522C761FAC5C2200C81644 /* RandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandController.swift; sourceTree = "<group>"; };
+		18522C781FAC5C3300C81644 /* RadioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioController.swift; sourceTree = "<group>"; };
+		18522C7A1FAC5C4100C81644 /* AnchorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorController.swift; sourceTree = "<group>"; };
 		186E6C071F9EE11700ADD065 /* XiMaLaYa-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XiMaLaYa-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186E6C1B1F9EE11700ADD065 /* XiMaLaYa-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XiMaLaYa-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186E6C1F1F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiMaLaYa_SwiftTests.swift; sourceTree = "<group>"; };
@@ -97,6 +111,182 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18522C581FAC4EBC00C81644 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				18522C591FAC4EBC00C81644 /* PageViewController */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		18522C591FAC4EBC00C81644 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18522C5A1FAC4EE100C81644 /* PageViewController.swift */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		18522C5E1FAC5BC500C81644 /* Anchor */ = {
+			isa = PBXGroup;
+			children = (
+				18522C5F1FAC5BC500C81644 /* Model */,
+				18522C601FAC5BC500C81644 /* View */,
+				18522C611FAC5BC500C81644 /* ViewModel */,
+				18522C7A1FAC5C4100C81644 /* AnchorController.swift */,
+			);
+			path = Anchor;
+			sourceTree = "<group>";
+		};
+		18522C5F1FAC5BC500C81644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18522C601FAC5BC500C81644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18522C611FAC5BC500C81644 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18522C621FAC5BC500C81644 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18522C631FAC5BC500C81644 /* Model */,
+				18522C641FAC5BC500C81644 /* View */,
+				18522C651FAC5BC500C81644 /* ViewModel */,
+				18522C741FAC5C1100C81644 /* CategoryController.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18522C631FAC5BC500C81644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18522C641FAC5BC500C81644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18522C651FAC5BC500C81644 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18522C661FAC5BC500C81644 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				18522C671FAC5BC500C81644 /* Model */,
+				18522C681FAC5BC500C81644 /* View */,
+				18522C691FAC5BC500C81644 /* ViewModel */,
+				18522C781FAC5C3300C81644 /* RadioController.swift */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		18522C671FAC5BC500C81644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18522C681FAC5BC500C81644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18522C691FAC5BC500C81644 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18522C6A1FAC5BC500C81644 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				18522C6B1FAC5BC500C81644 /* Model */,
+				18522C6C1FAC5BC500C81644 /* View */,
+				18522C6D1FAC5BC500C81644 /* ViewModel */,
+				18522C721FAC5BFC00C81644 /* RecommendController.swift */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		18522C6B1FAC5BC500C81644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18522C6C1FAC5BC500C81644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18522C6D1FAC5BC500C81644 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18522C6E1FAC5BC500C81644 /* Rand */ = {
+			isa = PBXGroup;
+			children = (
+				18522C6F1FAC5BC500C81644 /* Model */,
+				18522C701FAC5BC500C81644 /* View */,
+				18522C711FAC5BC500C81644 /* ViewModel */,
+				18522C761FAC5C2200C81644 /* RandController.swift */,
+			);
+			path = Rand;
+			sourceTree = "<group>";
+		};
+		18522C6F1FAC5BC500C81644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18522C701FAC5BC500C81644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18522C711FAC5BC500C81644 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		186E6BFE1F9EE11600ADD065 = {
 			isa = PBXGroup;
 			children = (
@@ -165,10 +355,10 @@
 		186E6C401F9EEF6C00ADD065 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				18522C581FAC4EBC00C81644 /* Lib */,
 				189E0BBF1FA2416D00F018D2 /* Category */,
 				189E0BC01FA2416D00F018D2 /* Controller */,
 				189E0BC51FA2416D00F018D2 /* View */,
-				189E0BC31FA2416D00F018D2 /* Image */,
 				189E0BC41FA2416D00F018D2 /* Model */,
 				189E0BC71FA2416D00F018D2 /* Tool */,
 			);
@@ -190,13 +380,6 @@
 				189E0BC21FA2416D00F018D2 /* BaseTabBarController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		189E0BC31FA2416D00F018D2 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Image;
 			sourceTree = "<group>";
 		};
 		189E0BC41FA2416D00F018D2 /* Model */ = {
@@ -398,6 +581,12 @@
 			isa = PBXGroup;
 			children = (
 				189E0BE61FA2425800F018D2 /* FindViewController.swift */,
+				18522C5C1FAC58FA00C81644 /* XMSubFindFactory.swift */,
+				18522C6A1FAC5BC500C81644 /* Recommend */,
+				18522C621FAC5BC500C81644 /* Category */,
+				18522C6E1FAC5BC500C81644 /* Rand */,
+				18522C661FAC5BC500C81644 /* Radio */,
+				18522C5E1FAC5BC500C81644 /* Anchor */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -634,15 +823,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				181069A11FA2C3770057C03B /* NaPlayView.swift in Sources */,
+				18522C5D1FAC58FA00C81644 /* XMSubFindFactory.swift in Sources */,
 				189E0BED1FA2448700F018D2 /* BaseNavigationController.swift in Sources */,
 				189E0BEC1FA2448300F018D2 /* BaseTabBarController.swift in Sources */,
 				189E0BE91FA2426D00F018D2 /* MeViewController.swift in Sources */,
+				18522C791FAC5C3300C81644 /* RadioController.swift in Sources */,
+				18522C751FAC5C1100C81644 /* CategoryController.swift in Sources */,
 				189E0BE51FA2424800F018D2 /* DownLoadViewController.swift in Sources */,
 				186E6C4D1F9F01CC00ADD065 /* AppDelegate.swift in Sources */,
+				18522C7B1FAC5C4100C81644 /* AnchorController.swift in Sources */,
 				18E122F41FA60F4900509452 /* UIView+Extension.swift in Sources */,
 				18E122F11FA60A2800509452 /* Commoned.swift in Sources */,
+				18522C731FAC5BFC00C81644 /* RecommendController.swift in Sources */,
 				189E0BE31FA2423900F018D2 /* CustomViewController.swift in Sources */,
 				189E0BEB1FA2427C00F018D2 /* PlayViewController.swift in Sources */,
+				18522C771FAC5C2200C81644 /* RandController.swift in Sources */,
+				18522C5B1FAC4EE100C81644 /* PageViewController.swift in Sources */,
 				189E0BE71FA2425800F018D2 /* FindViewController.swift in Sources */,
 				18E122EF1FA6039C00509452 /* FindSubTitleView.swift in Sources */,
 			);
