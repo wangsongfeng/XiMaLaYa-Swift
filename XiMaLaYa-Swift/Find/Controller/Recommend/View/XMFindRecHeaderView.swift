@@ -69,24 +69,12 @@ extension XMFindRecHeaderView{
         cateScrollView.contentSize = CGSize.init(width: cateIconW * count, height: cateIconH)
         for index in 0..<categoryModelArr.count {
             let detailModel = categoryModelArr[index]
-//            if let iconView = XMFindHeaderIconView.newInstance(){
-//                iconView.frame = CGRect.init(x: Double(index) * cateIconW, y: 0, width: cateIconW, height: cateIconH)
-//                iconView.model = detailModel
-//                cateScrollView.addSubview(iconView)
-//            }
+            if let iconView = XMFindHeaderIconView.newInstance(){
+                iconView.frame = CGRect.init(x: Double(index) * cateIconW, y: 0, width: cateIconW, height: cateIconH)
+                iconView.model = detailModel
+                cateScrollView.addSubview(iconView)
+            }
             
-            let button : UIButton = UIButton.init(frame: CGRect.init(x: Double(index) * cateIconW, y: 0, width: cateIconW, height: cateIconH))
-            button.titleLabel?.font = UIFont.systemFont(ofSize: 13)
-            button.setTitleColor(UIColor.black, for: .normal)
-            
-            guard let title = detailModel.title else {return}
-            guard let imagUrl = detailModel.coverPath else {return}
-
-            let url: URL = URL.init(string: imagUrl)!
-            let data : NSData = NSData.init(contentsOf: url)!
-            let image = UIImage.init(data: data as Data, scale: 1.0)
-            
-            button.set(image: image, title: title, titlePosition: .bottom, additionalSpacing: 10, state: .normal)
         }
     }
     

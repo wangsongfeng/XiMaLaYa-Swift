@@ -9,3 +9,10 @@
 10.29日---
 
 首页FindViewController 里面的 标题栏，FindTitleView
+
+
+11.7日---
+
+首页 数据封装，部分，，，第三方滑动浏览  SDCycleScrollView，，
+
+自定义按钮 ，图片和文字随意放置
