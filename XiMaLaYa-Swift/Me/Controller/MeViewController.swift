@@ -13,23 +13,12 @@ class MeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let button : UIButton = UIButton.init(frame: CGRect.init(x: 100, y: 100, width: 70, height: 90))
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 13)
+        button.setTitleColor(UIColor.black, for: .normal)
+        button.set(image: UIImage.init(named: "tabbar_np_loop"), title: "旋转", titlePosition: .bottom, additionalSpacing: 10, state: .normal)
+        view.addSubview(button)
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

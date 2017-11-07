@@ -16,9 +16,15 @@
 		18522C771FAC5C2200C81644 /* RandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C761FAC5C2200C81644 /* RandController.swift */; };
 		18522C791FAC5C3300C81644 /* RadioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C781FAC5C3300C81644 /* RadioController.swift */; };
 		18522C7B1FAC5C4100C81644 /* AnchorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18522C7A1FAC5C4100C81644 /* AnchorController.swift */; };
+		1862FA8F1FB09DD800E63154 /* XMFindDiscoveProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862FA8E1FB09DD800E63154 /* XMFindDiscoveProperties.swift */; };
+		1862FA911FB09E1B00E63154 /* XMFindDiscoverColumnList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862FA901FB09E1B00E63154 /* XMFindDiscoverColumnList.swift */; };
+		1862FA931FB09E7D00E63154 /* XMFindDiscoverColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862FA921FB09E7D00E63154 /* XMFindDiscoverColumns.swift */; };
+		1862FA951FB0A53100E63154 /* XMFindHeaderIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862FA941FB0A53100E63154 /* XMFindHeaderIconView.swift */; };
+		1862FA971FB0A55A00E63154 /* XMFindHeaderIconView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1862FA961FB0A55A00E63154 /* XMFindHeaderIconView.xib */; };
 		186E6C201F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C1F1F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift */; };
 		186E6C2B1F9EE11700ADD065 /* XiMaLaYa_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C2A1F9EE11700ADD065 /* XiMaLaYa_SwiftUITests.swift */; };
 		186E6C4D1F9F01CC00ADD065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C391F9EE26500ADD065 /* AppDelegate.swift */; };
+		187618A81FB144EC004E27AE /* XMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187618A71FB144EC004E27AE /* XMButton.swift */; };
 		189E0BE31FA2423900F018D2 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E0BE21FA2423900F018D2 /* CustomViewController.swift */; };
 		189E0BE51FA2424800F018D2 /* DownLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E0BE41FA2424800F018D2 /* DownLoadViewController.swift */; };
 		189E0BE71FA2425800F018D2 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E0BE61FA2425800F018D2 /* FindViewController.swift */; };
@@ -26,6 +32,16 @@
 		189E0BEB1FA2427C00F018D2 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E0BEA1FA2427C00F018D2 /* PlayViewController.swift */; };
 		189E0BEC1FA2448300F018D2 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E0BC21FA2416D00F018D2 /* BaseTabBarController.swift */; };
 		189E0BED1FA2448700F018D2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E0BC11FA2416D00F018D2 /* BaseNavigationController.swift */; };
+		18AB5C5B1FAFEBE500A024AF /* XMFindAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C5A1FAFEBE500A024AF /* XMFindAPI.swift */; };
+		18AB5C651FB009ED00A024AF /* XMFindFeeDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C641FB009ED00A024AF /* XMFindFeeDetailModel.swift */; };
+		18AB5C671FB00C0A00A024AF /* XMFindRecViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C661FB00C0A00A024AF /* XMFindRecViewModel.swift */; };
+		18AB5C691FB00C8200A024AF /* XMFindFocusImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C681FB00C8200A024AF /* XMFindFocusImages.swift */; };
+		18AB5C6B1FB00CFF00A024AF /* XMFindFocusImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C6A1FB00CFF00A024AF /* XMFindFocusImageList.swift */; };
+		18AB5C6C1FB00E1F00A024AF /* XMFindEditorRecoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C601FB0099B00A024AF /* XMFindEditorRecoAlbum.swift */; };
+		18AB5C6E1FB0130B00A024AF /* XMFindSpecialColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C6D1FB0130B00A024AF /* XMFindSpecialColumn.swift */; };
+		18AB5C701FB0136900A024AF /* XMFindSpecialDetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C6F1FB0136900A024AF /* XMFindSpecialDetailColumn.swift */; };
+		18AB5C721FB0408F00A024AF /* XMFindRecHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C711FB0408F00A024AF /* XMFindRecHeaderView.swift */; };
+		18DCABF41FAD89D500B2D4AA /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCABF31FAD89D500B2D4AA /* NetWorkTools.swift */; };
 		18E122EF1FA6039C00509452 /* FindSubTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E122EE1FA6039C00509452 /* FindSubTitleView.swift */; };
 		18E122F11FA60A2800509452 /* Commoned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E122F01FA60A2800509452 /* Commoned.swift */; };
 		18E122F41FA60F4900509452 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E122F31FA60F4900509452 /* UIView+Extension.swift */; };
@@ -58,6 +74,11 @@
 		18522C761FAC5C2200C81644 /* RandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandController.swift; sourceTree = "<group>"; };
 		18522C781FAC5C3300C81644 /* RadioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioController.swift; sourceTree = "<group>"; };
 		18522C7A1FAC5C4100C81644 /* AnchorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorController.swift; sourceTree = "<group>"; };
+		1862FA8E1FB09DD800E63154 /* XMFindDiscoveProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindDiscoveProperties.swift; sourceTree = "<group>"; };
+		1862FA901FB09E1B00E63154 /* XMFindDiscoverColumnList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindDiscoverColumnList.swift; sourceTree = "<group>"; };
+		1862FA921FB09E7D00E63154 /* XMFindDiscoverColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindDiscoverColumns.swift; sourceTree = "<group>"; };
+		1862FA941FB0A53100E63154 /* XMFindHeaderIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindHeaderIconView.swift; sourceTree = "<group>"; };
+		1862FA961FB0A55A00E63154 /* XMFindHeaderIconView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMFindHeaderIconView.xib; sourceTree = "<group>"; };
 		186E6C071F9EE11700ADD065 /* XiMaLaYa-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XiMaLaYa-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186E6C1B1F9EE11700ADD065 /* XiMaLaYa-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XiMaLaYa-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186E6C1F1F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiMaLaYa_SwiftTests.swift; sourceTree = "<group>"; };
@@ -68,6 +89,7 @@
 		186E6C391F9EE26500ADD065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186E6C3C1F9EE26500ADD065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186E6C3F1F9EE26500ADD065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187618A71FB144EC004E27AE /* XMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMButton.swift; sourceTree = "<group>"; };
 		189E0BC11FA2416D00F018D2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		189E0BC21FA2416D00F018D2 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		189E0BC61FA2416D00F018D2 /* NaPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaPlayView.swift; sourceTree = "<group>"; };
@@ -77,6 +99,16 @@
 		189E0BE61FA2425800F018D2 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		189E0BE81FA2426D00F018D2 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		189E0BEA1FA2427C00F018D2 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		18AB5C5A1FAFEBE500A024AF /* XMFindAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindAPI.swift; sourceTree = "<group>"; };
+		18AB5C601FB0099B00A024AF /* XMFindEditorRecoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindEditorRecoAlbum.swift; sourceTree = "<group>"; };
+		18AB5C641FB009ED00A024AF /* XMFindFeeDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindFeeDetailModel.swift; sourceTree = "<group>"; };
+		18AB5C661FB00C0A00A024AF /* XMFindRecViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindRecViewModel.swift; sourceTree = "<group>"; };
+		18AB5C681FB00C8200A024AF /* XMFindFocusImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindFocusImages.swift; sourceTree = "<group>"; };
+		18AB5C6A1FB00CFF00A024AF /* XMFindFocusImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindFocusImageList.swift; sourceTree = "<group>"; };
+		18AB5C6D1FB0130B00A024AF /* XMFindSpecialColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindSpecialColumn.swift; sourceTree = "<group>"; };
+		18AB5C6F1FB0136900A024AF /* XMFindSpecialDetailColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindSpecialDetailColumn.swift; sourceTree = "<group>"; };
+		18AB5C711FB0408F00A024AF /* XMFindRecHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindRecHeaderView.swift; sourceTree = "<group>"; };
+		18DCABF31FAD89D500B2D4AA /* NetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
 		18E122EE1FA6039C00509452 /* FindSubTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSubTitleView.swift; sourceTree = "<group>"; };
 		18E122F01FA60A2800509452 /* Commoned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commoned.swift; sourceTree = "<group>"; };
 		18E122F31FA60F4900509452 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -237,6 +269,11 @@
 		18522C6B1FAC5BC500C81644 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18AB5C611FB0099B00A024AF /* GeneralModel */,
+				18AB5C5F1FB0099B00A024AF /* RecommendAPIModel */,
+				18AB5C621FB0099B00A024AF /* HotAndGuessAPIModel */,
+				18AB5C5E1FB0099A00A024AF /* LiveRecommendModel */,
+				18AB5C631FB0099B00A024AF /* RecommendBannerModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -244,6 +281,9 @@
 		18522C6C1FAC5BC500C81644 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18AB5C711FB0408F00A024AF /* XMFindRecHeaderView.swift */,
+				1862FA941FB0A53100E63154 /* XMFindHeaderIconView.swift */,
+				1862FA961FB0A55A00E63154 /* XMFindHeaderIconView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +291,7 @@
 		18522C6D1FAC5BC500C81644 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				18AB5C661FB00C0A00A024AF /* XMFindRecViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -369,6 +410,7 @@
 			isa = PBXGroup;
 			children = (
 				18E122F31FA60F4900509452 /* UIView+Extension.swift */,
+				187618A71FB144EC004E27AE /* XMButton.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -385,6 +427,7 @@
 		189E0BC41FA2416D00F018D2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18DCABF31FAD89D500B2D4AA /* NetWorkTools.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -594,6 +637,7 @@
 		189E0BDF1FA2420600F018D2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18AB5C5A1FAFEBE500A024AF /* XMFindAPI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -611,6 +655,50 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18AB5C5E1FB0099A00A024AF /* LiveRecommendModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LiveRecommendModel;
+			sourceTree = "<group>";
+		};
+		18AB5C5F1FB0099B00A024AF /* RecommendAPIModel */ = {
+			isa = PBXGroup;
+			children = (
+				18AB5C601FB0099B00A024AF /* XMFindEditorRecoAlbum.swift */,
+				18AB5C681FB00C8200A024AF /* XMFindFocusImages.swift */,
+				18AB5C6A1FB00CFF00A024AF /* XMFindFocusImageList.swift */,
+				18AB5C6D1FB0130B00A024AF /* XMFindSpecialColumn.swift */,
+				18AB5C6F1FB0136900A024AF /* XMFindSpecialDetailColumn.swift */,
+			);
+			path = RecommendAPIModel;
+			sourceTree = "<group>";
+		};
+		18AB5C611FB0099B00A024AF /* GeneralModel */ = {
+			isa = PBXGroup;
+			children = (
+				18AB5C641FB009ED00A024AF /* XMFindFeeDetailModel.swift */,
+			);
+			path = GeneralModel;
+			sourceTree = "<group>";
+		};
+		18AB5C621FB0099B00A024AF /* HotAndGuessAPIModel */ = {
+			isa = PBXGroup;
+			children = (
+				1862FA921FB09E7D00E63154 /* XMFindDiscoverColumns.swift */,
+				1862FA901FB09E1B00E63154 /* XMFindDiscoverColumnList.swift */,
+				1862FA8E1FB09DD800E63154 /* XMFindDiscoveProperties.swift */,
+			);
+			path = HotAndGuessAPIModel;
+			sourceTree = "<group>";
+		};
+		18AB5C631FB0099B00A024AF /* RecommendBannerModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RecommendBannerModel;
 			sourceTree = "<group>";
 		};
 		B9274A0E10306E46232B1765 /* Frameworks */ = {
@@ -741,6 +829,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1862FA971FB0A55A00E63154 /* XMFindHeaderIconView.xib in Resources */,
 				181069A31FA2C56F0057C03B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -787,11 +876,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XiMaLaYa-Swift/Pods-XiMaLaYa-Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -822,25 +919,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AB5C721FB0408F00A024AF /* XMFindRecHeaderView.swift in Sources */,
+				18AB5C6C1FB00E1F00A024AF /* XMFindEditorRecoAlbum.swift in Sources */,
+				18DCABF41FAD89D500B2D4AA /* NetWorkTools.swift in Sources */,
 				181069A11FA2C3770057C03B /* NaPlayView.swift in Sources */,
+				18AB5C6B1FB00CFF00A024AF /* XMFindFocusImageList.swift in Sources */,
 				18522C5D1FAC58FA00C81644 /* XMSubFindFactory.swift in Sources */,
 				189E0BED1FA2448700F018D2 /* BaseNavigationController.swift in Sources */,
 				189E0BEC1FA2448300F018D2 /* BaseTabBarController.swift in Sources */,
+				1862FA8F1FB09DD800E63154 /* XMFindDiscoveProperties.swift in Sources */,
+				18AB5C5B1FAFEBE500A024AF /* XMFindAPI.swift in Sources */,
 				189E0BE91FA2426D00F018D2 /* MeViewController.swift in Sources */,
 				18522C791FAC5C3300C81644 /* RadioController.swift in Sources */,
+				1862FA911FB09E1B00E63154 /* XMFindDiscoverColumnList.swift in Sources */,
 				18522C751FAC5C1100C81644 /* CategoryController.swift in Sources */,
 				189E0BE51FA2424800F018D2 /* DownLoadViewController.swift in Sources */,
 				186E6C4D1F9F01CC00ADD065 /* AppDelegate.swift in Sources */,
+				18AB5C671FB00C0A00A024AF /* XMFindRecViewModel.swift in Sources */,
 				18522C7B1FAC5C4100C81644 /* AnchorController.swift in Sources */,
 				18E122F41FA60F4900509452 /* UIView+Extension.swift in Sources */,
 				18E122F11FA60A2800509452 /* Commoned.swift in Sources */,
+				187618A81FB144EC004E27AE /* XMButton.swift in Sources */,
+				18AB5C6E1FB0130B00A024AF /* XMFindSpecialColumn.swift in Sources */,
 				18522C731FAC5BFC00C81644 /* RecommendController.swift in Sources */,
 				189E0BE31FA2423900F018D2 /* CustomViewController.swift in Sources */,
 				189E0BEB1FA2427C00F018D2 /* PlayViewController.swift in Sources */,
 				18522C771FAC5C2200C81644 /* RandController.swift in Sources */,
 				18522C5B1FAC4EE100C81644 /* PageViewController.swift in Sources */,
+				18AB5C651FB009ED00A024AF /* XMFindFeeDetailModel.swift in Sources */,
 				189E0BE71FA2425800F018D2 /* FindViewController.swift in Sources */,
+				1862FA931FB09E7D00E63154 /* XMFindDiscoverColumns.swift in Sources */,
+				18AB5C691FB00C8200A024AF /* XMFindFocusImages.swift in Sources */,
+				18AB5C701FB0136900A024AF /* XMFindSpecialDetailColumn.swift in Sources */,
 				18E122EF1FA6039C00509452 /* FindSubTitleView.swift in Sources */,
+				1862FA951FB0A53100E63154 /* XMFindHeaderIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,7 +1047,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -986,7 +1098,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1004,6 +1116,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W5PE2ZM23A;
 				INFOPLIST_FILE = "$(SRCROOT)/XiMaLaYa-Swift/Appdelegate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "oufei.com.XiMaLaYa-Swift";
@@ -1025,6 +1138,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W5PE2ZM23A;
 				INFOPLIST_FILE = "$(SRCROOT)/XiMaLaYa-Swift/Appdelegate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "oufei.com.XiMaLaYa-Swift";
