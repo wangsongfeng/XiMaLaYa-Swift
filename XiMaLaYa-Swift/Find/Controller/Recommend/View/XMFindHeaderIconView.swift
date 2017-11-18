@@ -35,7 +35,7 @@ class XMFindHeaderIconView: UIView {
 extension XMFindHeaderIconView {
     func setupDetailModel() -> Void {
         
-        imageView.layer.cornerRadius = 45/2.0
+        imageView.layer.cornerRadius = 43/2.0
         imageView.layer.masksToBounds = true
         guard let title = model.title else {return}
         textLable.text = title

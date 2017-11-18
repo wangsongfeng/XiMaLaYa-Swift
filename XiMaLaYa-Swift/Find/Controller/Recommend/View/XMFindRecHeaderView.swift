@@ -9,9 +9,9 @@
 import UIKit
 import SDCycleScrollView
 
-let cycleViewH: CGFloat = 150
-let cateIconW: Double = 71
-let cateIconH: Double = 90
+let cycleViewH: CGFloat = MatchW(W: 150)
+let cateIconW: CGFloat = 71
+let cateIconH: CGFloat = 90
 
 class XMFindRecHeaderView: UIView {
 
@@ -37,6 +37,8 @@ class XMFindRecHeaderView: UIView {
         self.adverScrollView.frame = CGRect.init(x: 0, y: 0, width: ScreenW, height: cycleViewH)
         
         self.cateScrollView.frame = CGRect.init(x: 0, y: cycleViewH, width: ScreenW, height: CGFloat(cateIconH))
+        self.cateScrollView.showsHorizontalScrollIndicator = false
+        self.cateScrollView.showsVerticalScrollIndicator = false
         addSubview(self.adverScrollView)
         addSubview(self.cateScrollView)
     
@@ -66,11 +68,12 @@ extension XMFindRecHeaderView{
             return
         }
         
-        cateScrollView.contentSize = CGSize.init(width: cateIconW * count, height: cateIconH)
+        
+        cateScrollView.contentSize = CGSize.init(width: cateIconW * CGFloat(count), height: cateIconH)
         for index in 0..<categoryModelArr.count {
             let detailModel = categoryModelArr[index]
             if let iconView = XMFindHeaderIconView.newInstance(){
-                iconView.frame = CGRect.init(x: Double(index) * cateIconW, y: 0, width: cateIconW, height: cateIconH)
+                iconView.frame = CGRect.init(x: CGFloat(index) * cateIconW, y: 0, width: cateIconW, height: cateIconH)
                 iconView.model = detailModel
                 cateScrollView.addSubview(iconView)
             }

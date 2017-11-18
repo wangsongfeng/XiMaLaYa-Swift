@@ -21,6 +21,8 @@
 		1862FA931FB09E7D00E63154 /* XMFindDiscoverColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862FA921FB09E7D00E63154 /* XMFindDiscoverColumns.swift */; };
 		1862FA951FB0A53100E63154 /* XMFindHeaderIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862FA941FB0A53100E63154 /* XMFindHeaderIconView.swift */; };
 		1862FA971FB0A55A00E63154 /* XMFindHeaderIconView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1862FA961FB0A55A00E63154 /* XMFindHeaderIconView.xib */; };
+		186B41FF1FC067BE006B9E76 /* LXFFindCellStyleSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B41FD1FC05FB3006B9E76 /* LXFFindCellStyleSpecial.swift */; };
+		186B42011FC070DF006B9E76 /* LXFFindCellStyleSpecial.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186B41FE1FC05FB4006B9E76 /* LXFFindCellStyleSpecial.xib */; };
 		186E6C201F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C1F1F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift */; };
 		186E6C2B1F9EE11700ADD065 /* XiMaLaYa_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C2A1F9EE11700ADD065 /* XiMaLaYa_SwiftUITests.swift */; };
 		186E6C4D1F9F01CC00ADD065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E6C391F9EE26500ADD065 /* AppDelegate.swift */; };
@@ -42,9 +44,17 @@
 		18AB5C701FB0136900A024AF /* XMFindSpecialDetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C6F1FB0136900A024AF /* XMFindSpecialDetailColumn.swift */; };
 		18AB5C721FB0408F00A024AF /* XMFindRecHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB5C711FB0408F00A024AF /* XMFindRecHeaderView.swift */; };
 		18DCABF41FAD89D500B2D4AA /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCABF31FAD89D500B2D4AA /* NetWorkTools.swift */; };
+		18E064AD1FC00F0D00BF2EDB /* XMFindGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E064AC1FC00F0D00BF2EDB /* XMFindGuess.swift */; };
+		18E064AF1FC0110C00BF2EDB /* XMFindCityColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E064AE1FC0110C00BF2EDB /* XMFindCityColumns.swift */; };
+		18E064B11FC012E500BF2EDB /* XMFindHotRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E064B01FC012E500BF2EDB /* XMFindHotRecommend.swift */; };
+		18E064B31FC0135F00BF2EDB /* XMFindRecommendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E064B21FC0135F00BF2EDB /* XMFindRecommendList.swift */; };
+		18E064B61FC0512600BF2EDB /* XMFindCellStyleLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E064B51FC0512600BF2EDB /* XMFindCellStyleLiveCell.swift */; };
+		18E064B81FC0591000BF2EDB /* XMFindLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E064B71FC0590F00BF2EDB /* XMFindLive.swift */; };
 		18E122EF1FA6039C00509452 /* FindSubTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E122EE1FA6039C00509452 /* FindSubTitleView.swift */; };
 		18E122F11FA60A2800509452 /* Commoned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E122F01FA60A2800509452 /* Commoned.swift */; };
 		18E122F41FA60F4900509452 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E122F31FA60F4900509452 /* UIView+Extension.swift */; };
+		18FF763C1FBE90DE0007F8F7 /* XMFindCellStyleFeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF763B1FBE90DE0007F8F7 /* XMFindCellStyleFeeCell.swift */; };
+		18FF763E1FBED7BF0007F8F7 /* XMFindCellBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF763D1FBED7BF0007F8F7 /* XMFindCellBottomView.swift */; };
 		2DC0A57774BCEE0F28ECB59B /* Pods_XiMaLaYa_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCB2E23752389B40BE472E0 /* Pods_XiMaLaYa_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +89,8 @@
 		1862FA921FB09E7D00E63154 /* XMFindDiscoverColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindDiscoverColumns.swift; sourceTree = "<group>"; };
 		1862FA941FB0A53100E63154 /* XMFindHeaderIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindHeaderIconView.swift; sourceTree = "<group>"; };
 		1862FA961FB0A55A00E63154 /* XMFindHeaderIconView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMFindHeaderIconView.xib; sourceTree = "<group>"; };
+		186B41FD1FC05FB3006B9E76 /* LXFFindCellStyleSpecial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFFindCellStyleSpecial.swift; sourceTree = "<group>"; };
+		186B41FE1FC05FB4006B9E76 /* LXFFindCellStyleSpecial.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXFFindCellStyleSpecial.xib; sourceTree = "<group>"; };
 		186E6C071F9EE11700ADD065 /* XiMaLaYa-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XiMaLaYa-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186E6C1B1F9EE11700ADD065 /* XiMaLaYa-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XiMaLaYa-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186E6C1F1F9EE11700ADD065 /* XiMaLaYa_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiMaLaYa_SwiftTests.swift; sourceTree = "<group>"; };
@@ -109,9 +121,17 @@
 		18AB5C6F1FB0136900A024AF /* XMFindSpecialDetailColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindSpecialDetailColumn.swift; sourceTree = "<group>"; };
 		18AB5C711FB0408F00A024AF /* XMFindRecHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindRecHeaderView.swift; sourceTree = "<group>"; };
 		18DCABF31FAD89D500B2D4AA /* NetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		18E064AC1FC00F0D00BF2EDB /* XMFindGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindGuess.swift; sourceTree = "<group>"; };
+		18E064AE1FC0110C00BF2EDB /* XMFindCityColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindCityColumns.swift; sourceTree = "<group>"; };
+		18E064B01FC012E500BF2EDB /* XMFindHotRecommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindHotRecommend.swift; sourceTree = "<group>"; };
+		18E064B21FC0135F00BF2EDB /* XMFindRecommendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindRecommendList.swift; sourceTree = "<group>"; };
+		18E064B51FC0512600BF2EDB /* XMFindCellStyleLiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindCellStyleLiveCell.swift; sourceTree = "<group>"; };
+		18E064B71FC0590F00BF2EDB /* XMFindLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindLive.swift; sourceTree = "<group>"; };
 		18E122EE1FA6039C00509452 /* FindSubTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSubTitleView.swift; sourceTree = "<group>"; };
 		18E122F01FA60A2800509452 /* Commoned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commoned.swift; sourceTree = "<group>"; };
 		18E122F31FA60F4900509452 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		18FF763B1FBE90DE0007F8F7 /* XMFindCellStyleFeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindCellStyleFeeCell.swift; sourceTree = "<group>"; };
+		18FF763D1FBED7BF0007F8F7 /* XMFindCellBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMFindCellBottomView.swift; sourceTree = "<group>"; };
 		287E7A7E1C3278B7AD8791B0 /* Pods-XiMaLaYa-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiMaLaYa-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XiMaLaYa-Swift/Pods-XiMaLaYa-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		6BCB2E23752389B40BE472E0 /* Pods_XiMaLaYa_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiMaLaYa_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD623C1FE8A38B0134439DB /* Pods-XiMaLaYa-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiMaLaYa-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-XiMaLaYa-Swift/Pods-XiMaLaYa-Swift.release.xcconfig"; sourceTree = "<group>"; };
@@ -284,6 +304,9 @@
 				18AB5C711FB0408F00A024AF /* XMFindRecHeaderView.swift */,
 				1862FA941FB0A53100E63154 /* XMFindHeaderIconView.swift */,
 				1862FA961FB0A55A00E63154 /* XMFindHeaderIconView.xib */,
+				18FF763A1FBE90980007F8F7 /* XMFindCellStyleFee */,
+				18E064B41FC050D900BF2EDB /* XMFindCellStyleLive */,
+				18E064B91FC05E8000BF2EDB /* XMFindStyleSpecialCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -660,6 +683,7 @@
 		18AB5C5E1FB0099A00A024AF /* LiveRecommendModel */ = {
 			isa = PBXGroup;
 			children = (
+				18E064B71FC0590F00BF2EDB /* XMFindLive.swift */,
 			);
 			path = LiveRecommendModel;
 			sourceTree = "<group>";
@@ -690,6 +714,10 @@
 				1862FA921FB09E7D00E63154 /* XMFindDiscoverColumns.swift */,
 				1862FA901FB09E1B00E63154 /* XMFindDiscoverColumnList.swift */,
 				1862FA8E1FB09DD800E63154 /* XMFindDiscoveProperties.swift */,
+				18E064AC1FC00F0D00BF2EDB /* XMFindGuess.swift */,
+				18E064AE1FC0110C00BF2EDB /* XMFindCityColumns.swift */,
+				18E064B01FC012E500BF2EDB /* XMFindHotRecommend.swift */,
+				18E064B21FC0135F00BF2EDB /* XMFindRecommendList.swift */,
 			);
 			path = HotAndGuessAPIModel;
 			sourceTree = "<group>";
@@ -699,6 +727,32 @@
 			children = (
 			);
 			path = RecommendBannerModel;
+			sourceTree = "<group>";
+		};
+		18E064B41FC050D900BF2EDB /* XMFindCellStyleLive */ = {
+			isa = PBXGroup;
+			children = (
+				18E064B51FC0512600BF2EDB /* XMFindCellStyleLiveCell.swift */,
+			);
+			path = XMFindCellStyleLive;
+			sourceTree = "<group>";
+		};
+		18E064B91FC05E8000BF2EDB /* XMFindStyleSpecialCell */ = {
+			isa = PBXGroup;
+			children = (
+				186B41FD1FC05FB3006B9E76 /* LXFFindCellStyleSpecial.swift */,
+				186B41FE1FC05FB4006B9E76 /* LXFFindCellStyleSpecial.xib */,
+			);
+			path = XMFindStyleSpecialCell;
+			sourceTree = "<group>";
+		};
+		18FF763A1FBE90980007F8F7 /* XMFindCellStyleFee */ = {
+			isa = PBXGroup;
+			children = (
+				18FF763B1FBE90DE0007F8F7 /* XMFindCellStyleFeeCell.swift */,
+				18FF763D1FBED7BF0007F8F7 /* XMFindCellBottomView.swift */,
+			);
+			path = XMFindCellStyleFee;
 			sourceTree = "<group>";
 		};
 		B9274A0E10306E46232B1765 /* Frameworks */ = {
@@ -829,6 +883,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186B42011FC070DF006B9E76 /* LXFFindCellStyleSpecial.xib in Resources */,
 				1862FA971FB0A55A00E63154 /* XMFindHeaderIconView.xib in Resources */,
 				181069A31FA2C56F0057C03B /* Assets.xcassets in Resources */,
 			);
@@ -919,12 +974,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186B41FF1FC067BE006B9E76 /* LXFFindCellStyleSpecial.swift in Sources */,
+				18E064AF1FC0110C00BF2EDB /* XMFindCityColumns.swift in Sources */,
+				18FF763C1FBE90DE0007F8F7 /* XMFindCellStyleFeeCell.swift in Sources */,
 				18AB5C721FB0408F00A024AF /* XMFindRecHeaderView.swift in Sources */,
 				18AB5C6C1FB00E1F00A024AF /* XMFindEditorRecoAlbum.swift in Sources */,
+				18E064B11FC012E500BF2EDB /* XMFindHotRecommend.swift in Sources */,
 				18DCABF41FAD89D500B2D4AA /* NetWorkTools.swift in Sources */,
 				181069A11FA2C3770057C03B /* NaPlayView.swift in Sources */,
 				18AB5C6B1FB00CFF00A024AF /* XMFindFocusImageList.swift in Sources */,
 				18522C5D1FAC58FA00C81644 /* XMSubFindFactory.swift in Sources */,
+				18FF763E1FBED7BF0007F8F7 /* XMFindCellBottomView.swift in Sources */,
+				18E064AD1FC00F0D00BF2EDB /* XMFindGuess.swift in Sources */,
 				189E0BED1FA2448700F018D2 /* BaseNavigationController.swift in Sources */,
 				189E0BEC1FA2448300F018D2 /* BaseTabBarController.swift in Sources */,
 				1862FA8F1FB09DD800E63154 /* XMFindDiscoveProperties.swift in Sources */,
@@ -938,7 +999,10 @@
 				18AB5C671FB00C0A00A024AF /* XMFindRecViewModel.swift in Sources */,
 				18522C7B1FAC5C4100C81644 /* AnchorController.swift in Sources */,
 				18E122F41FA60F4900509452 /* UIView+Extension.swift in Sources */,
+				18E064B31FC0135F00BF2EDB /* XMFindRecommendList.swift in Sources */,
+				18E064B61FC0512600BF2EDB /* XMFindCellStyleLiveCell.swift in Sources */,
 				18E122F11FA60A2800509452 /* Commoned.swift in Sources */,
+				18E064B81FC0591000BF2EDB /* XMFindLive.swift in Sources */,
 				187618A81FB144EC004E27AE /* XMButton.swift in Sources */,
 				18AB5C6E1FB0130B00A024AF /* XMFindSpecialColumn.swift in Sources */,
 				18522C731FAC5BFC00C81644 /* RecommendController.swift in Sources */,

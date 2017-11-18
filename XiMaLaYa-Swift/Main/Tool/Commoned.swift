@@ -16,3 +16,15 @@ let ScreenW = UIScreen.main.bounds.size.width
 let ScreenH = UIScreen.main.bounds.size.height
 
 
+func MatchW(W : CGFloat) -> CGFloat {
+    return UIScreen.main.bounds.size.width/375.0 * W
+}
+
+func MatchH(H: CGFloat) -> CGFloat {
+    return UIScreen.main.bounds.size.height/667.0 * H
+}
+let Space = MatchW(W: 12)
+let midSpace = MatchW(W: 10)
+
+let imageW = (ScreenW-(Space*2+midSpace*2.0))/3
+

@@ -13,7 +13,7 @@ class XMFindSpecialColumn: HandyJSON {
     var title: String?
     var hasMore: Bool = false
     var ret: Int = 0
-        
+    var list: [XMFindSpecialDetailColumn]?
     required init() {
         
     }
